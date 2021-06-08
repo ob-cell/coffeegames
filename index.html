@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en" class="h-100">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Coffee Games Studio™</title>
+  <meta name="description" content="Add a dark-mode theme toggle with a Bootstrap Custom Switch">
+
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2280%22>☕️</text></svg>">
+  
+  <meta property="og:site_name" content="GitHub">
+  <meta property="og:image"
+    content="https://repository-images.githubusercontent.com/194995309/38db8f80-9db7-11e9-998f-43f2a26d9e0b">
+  <meta property="og:title" content="dark-mode-switch">
+  <meta property="og:description" content="Add a dark-mode theme toggle with a Bootstrap Custom Switch">
+  <meta property="og:url" content="https://coliff.github.io/dark-mode-switch/">
+  <link rel="author" href="https://christianoliff.com/">
+  <meta name="twitter:creator" content="@christianoliff">
+  <meta name="monetization" content="$ilp.uphold.com/Epqzn3YGr2MB">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5/dist/css/bootstrap.min.css">
+
+  <!-- IE 11 polyfill for CSS and Custom Properties -->
+  <script
+    nomodule>window.MSInputMethodContext && document.documentMode && document.write('<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-ie11@5/css/bootstrap-ie11.min.css"><script src="https://cdn.jsdelivr.net/npm/ie11-custom-properties@4/ie11CustomProperties.min.js"><\/script>');</script>
+
+  <link rel="stylesheet" href="dark-mode.css">
+
+</head>
+
+<body class="bg-white text-center d-flex h-100">
+
+  <div class="container d-flex p-3 mx-auto w-100 flex-column">
+    <header class="mb-auto">
+      <div class="float-md-start fw-bold fs-5">☕️ Coffee Games Studio</div>
+      <nav class="nav justify-content-center float-md-end">
+        <a class="nav-link active" href="/index.html">Home</a>
+        <a class="nav-link active" href="/SeniorJack/Desktop/CGS%20studio/team.html">Our Team</a>
+        <a class="nav-link active" href="https://youtube.com/channel/UCPg5PaCfxo7sMRE639aShig">Youtube channel</a>
+        <a class="nav-link" href="https://github.com/boypro8" target="_blank">GitHub</a>
+        <div class="nav-link">
+
+          <div class="form-check form-switch">
+            <input type="checkbox" class="form-check-input" id="darkSwitch">
+            <label class="custom-control-label" for="darkSwitch">Dark Mode</label>
+          </div>
+          <script src="dark-mode-switch.min.js"></script>
+
+        </div>
+      </nav>
+    </header>
+
+<style>
+* {box-sizing: border-box;}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #e9e9e9;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}
+
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+</style>
+
+    <main role="main">
+      <h1>☕️ Coffee Games Studio</h1>
+      <p class="lead">Drinks,Foods then GAMES!</p>
+      <ul class="list-unstyled">
+        <li>&middot; Sandbox Games</li>
+        <li>&middot; Cool Games!</li>
+      </ul>
+      <p>
+        <div class="search-container">
+            <form action="/action_page.php">
+              <input type="text" placeholder="Search.." name="search">
+              <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+          </div>
+        </a>
+      </p>
+    </main>
+    
+    <footer class="mt-auto">
+      <p>&copy; Coffee Games Studio 2021</p> <a class="nav-link" href="$assets/index.html" target="_blank">Licence</a>
+    </footer>
+
+  </div>
+</body>
+ </html>
